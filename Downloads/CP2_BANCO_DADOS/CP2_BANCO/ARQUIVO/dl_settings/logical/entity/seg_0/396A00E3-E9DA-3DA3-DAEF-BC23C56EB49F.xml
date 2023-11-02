@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="396A00E3-E9DA-3DA3-DAEF-BC23C56EB49F" name="T_RHSTU_CARTAO">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-11-01 00:06:15 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cartao_credito" id="32300A31-AA4F-C69B-0F02-8B372EFF575F">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-11-01 00:07:02 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cartao_debito" id="057FF9B9-9C29-58BE-6D97-375F5E106176">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-11-01 00:07:02 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_transacao" id="F55B4E6D-780D-9DBF-B80B-A15409998923">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-11-01 00:07:02 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_transacao" id="3056335F-B06B-C540-0E79-6E223D205DAE">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-11-01 00:07:02 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hr_transacao" id="63984D16-E5B8-7ACC-9B60-87DE273BFA54">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-11-01 00:07:03 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_vencimento" id="C54373F1-9BF9-15A7-A520-262088CC61C9">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-11-01 00:07:03 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bandeira_cartao" id="D91284F6-9120-A225-EF97-F6C18E11377C">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-11-01 00:07:03 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_pagamento(p)_(a)" id="53037F17-CA63-92FD-FAE0-EAC1D896A72B">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-11-01 00:07:04 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="EF6B3087-8254-F314-9A19-308131AFF7A8">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-11-01 00:39:28 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do paciente. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>031ACCA0-E7D8-911D-A4D4-AEC8CA7F2E8C</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>0FD05AA9-D0A1-BB46-E36D-BD8D1B1452FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

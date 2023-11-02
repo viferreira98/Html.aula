@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0970E859-F6DB-FDF6-3C3F-DB862375376F" name="T_RHSTU_LOGIN_SENHA_PACIENTE">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-10-30 23:37:12 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nm_login_paciente" id="4C6D0776-A0E9-72FD-DAD4-E7CE30DF4DC7">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-10-30 23:37:57 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_senha_paciente" id="09F70DDA-F54F-5DAF-0D35-445DA2EC24FC">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-10-30 23:37:58 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="07D3458F-DABB-9BC5-95DD-82800AA11590">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-10-30 23:37:58 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

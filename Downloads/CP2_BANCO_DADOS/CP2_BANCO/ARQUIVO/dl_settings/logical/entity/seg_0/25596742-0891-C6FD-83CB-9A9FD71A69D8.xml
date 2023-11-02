@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="25596742-0891-C6FD-83CB-9A9FD71A69D8" name="T_RHSTU_FUNCIONARIOv1">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-10-31 23:14:55 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_funcionario" id="27E089D5-CA1E-4A98-470D-20F281C9D3D2">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-10-31 23:15:37 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cpf_funcionario" id="DC805843-37FC-5103-459E-C2C1C6DCE7B5">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-10-31 23:15:37 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_rg_funcionario" id="826614EB-F452-9E7B-8D1F-D0925FFE3417">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-10-31 23:15:38 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_especialidade_funcionario" id="F3932436-7827-F9C6-9BDF-1DF21F549EAC">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-10-31 23:15:38 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_funcionario" id="5B1F9105-E08A-A3CE-783F-55956A3B902A">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-10-31 23:15:38 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_plano_saude" id="60150A46-905D-3EA2-6A7A-3FA42B114668">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-10-31 23:15:38 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_plano_saude2" id="C2C5CA37-BF1B-066A-D787-297BD35E6CE0">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-10-31 23:36:07 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do plano de saúde. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>DCDC8402-9DE6-C6CF-EA54-B7F1ECDE87FD</generatorID>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>E40D7012-4CE7-F19C-25A9-4951C8D0B3B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5002A552-7545-1EC9-AC6F-0861D57EABC0" name="T_RHSTU_FUNCIONARIOv1 PK">
+<createdBy>Daniel Melo</createdBy>
+<createdTime>2023-10-31 23:36:07 UTC</createdTime>
+<ownerDesignName>dl_settings</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C2C5CA37-BF1B-066A-D787-297BD35E6CE0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
